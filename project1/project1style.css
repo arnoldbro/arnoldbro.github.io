@@ -1,0 +1,187 @@
+.headerimages{
+  height:100%;
+  float:left;
+}
+.headerimage1 {
+  width:100%;
+  height: 100%;
+  float:left
+}
+
+.headerimage2 {
+  width:100%;
+  height: 100%;
+  float:right;
+}
+
+.headerimage1block{
+  width: 15%;
+  height: 100%;
+  float: left;
+  margin-top:3%;
+  margin-left:3%
+}
+
+.headerimage2block{
+  width: 15%;
+  height: 100%;
+  float: right;
+  margin-top:1%;
+  margin-right:3%
+}
+
+.header{
+
+}
+
+
+.homeelements{
+  background-color: lightblue;
+  border: solid blue;
+  height:100%;
+  float:left;
+  width: 94%;
+  margin-bottom:3%;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+.homeimage1block{
+  width: 40%;
+  height: 100%;
+  float:left;
+  margin-left:5.5%;
+  margin-top: 6%;
+
+}
+
+.homeimage2block{
+  width: 40%;
+  height: 100%;
+  float: right;
+  margin-right:7.5%;
+  margin-bottom: 4%;
+}
+
+.homeimage1{
+  width: 100%;
+  height: 100%;
+}
+
+.homeimage2{
+  width: 100%;
+  height: 100%;
+}
+
+.hometext1block{
+  border: solid white;
+  width: 40%;
+  height: 100%;
+  float: right;
+  margin-right:7%;
+  margin-top: 4%;
+}
+
+.hometext2block{
+  border: solid white;
+  width: 40%;
+  height: 100%;
+  float:left;
+  margin-left:5%;
+  margin-bottom: 2%;
+}
+
+.hometext1{
+  width: 100%;
+  height: 100%;
+}
+
+.hometext2{
+  width: 100%;
+  height: 100%;
+}
+
+.upcomingeventsblock{
+  align:left
+}
+
+.newsfeedblock{
+  align:left
+}
+
+.tableblock{
+  display: table;
+  align: left;
+  width: 100%
+}
+
+.contactusblock{
+  align:left;
+}
+
+
+.contactlogos{
+  width: 7%;
+  margin-left: 2%;
+  margin-right: 98%;
+  float: left;
+}
+
+.menublock{
+  background-color: white;
+  overflow: hidden;
+  bottom: 0;
+  width: 100%;
+}
+
+.menuitems{
+  display: inline-block;
+
+}
+
+.hikingblock{
+  width: 98%;
+  height: 200px;
+
+}
+
+.hikingimage1block{
+  float: left;
+  width: 30%;
+  height: 100%;
+
+}
+
+.hikingimage2block{
+  float:right;
+  width: 30%;
+  height: 100%;
+
+}
+
+.hikingimage1{
+  width: 100%;
+  height: 100%;
+}
+
+.hikingimage2{
+  width: 100%;
+  height: 100%;
+}
+
+.hikingtextblock{
+  float: left;
+  text-align: center;
+  width: 30%;
+  height: 80%;
+  margin-left: 4.5%;
+}
+
+.hikingtext{
+  font-size: 12px;
+  height: 100%;
+  width: 100%;
+  border: 4px solid grey;
+}
+
+.contactlogo{}
