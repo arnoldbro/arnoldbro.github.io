@@ -1,0 +1,89 @@
+.p1 {
+  border: 2px solid red;
+}
+
+.p2{
+  color: blue;
+}
+.p3{
+  background:pink;
+}
+
+.p4{
+  font-family:arial;
+}
+
+.p5{
+  font-size:20px;
+}
+
+.p6{
+  margin:20px;
+}
+
+.p7{
+  text-shadow:2px 10px;
+}
+
+.p8{
+  font-weight:900 ;
+}
+
+.image1{
+  width: 49%;
+  height: 100%;
+  float: center;
+  background-color: powderblue;
+  border:2px solid red;
+  margin:2%;
+}
+
+.text {
+  color:rgba(100,230,105,1);
+  background-color: yellow;
+
+  font-size: 30px;
+  font-family: courier;
+  font-weight: bold;
+  font-style: italic;
+
+  border: 2px solid red;
+  box-shadow: 10px 5px 10px purple;
+  width: 50%      px;
+  height: 60px;
+
+  margin: 20% 20%;
+  padding: 2% 4%;
+  text-align: center;
+  text-shadow: 10pz 5px 10px purple;
+}
+
+.photo1 {
+  width: 30%;
+  height: 100%;
+
+  margin: 1%;
+}
+
+.photo2{
+  width: 30%;
+  height: 100%;
+  float: center;
+
+  margin: 1%;
+}
+
+.photo3{
+  width: 30%;
+  height: 100%;
+
+  margin: 1%;
+}
+
+
+.imageblock{
+  border: solid 3px darkblue;
+  align: center;
+
+  padding: 5%;
+}
