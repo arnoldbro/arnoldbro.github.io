@@ -22,6 +22,7 @@
     margin-top: 40%;
     animation-name: hand;
     animation-duration: 10s;
+    animation-timing-function: linear;
     transform-origin: center left; transform: rotate(270deg);
   }
 
@@ -37,6 +38,7 @@
     margin-top: 40%;
     animation-name: hand2;
     animation-duration: 10s;
+    animation-timing-function: linear;
     transform-origin: center left; transform: rotate(30deg);
 
   }
