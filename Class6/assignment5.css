@@ -1,0 +1,220 @@
+/*
+.container{
+  border: 2px solid black;
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+
+}
+
+.slidegroup{
+  width: 400%;
+  height: 100%;
+  animation: slider 6s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes slider {
+
+  0%  {margin-left: 0%; }
+
+  30% {margin-left: -100%;  }
+
+  70% {margin-left: -200%;   }
+
+  100% {margin-left: -300%;   }
+}
+
+.slide{
+  width: 25%;
+  height: 100%;
+  float: left;
+  font-size: 110px;
+  text-align: center;
+
+}
+
+.slide:nth-child(1){
+  background-image: url("image.jpg");
+  background-size: 100% 100%;
+}
+
+.slide:nth-child(2){
+  background-image: url("image2.jpg");
+  background-size: 100% 100%;
+}
+
+.slide:nth-child(3){
+  background-image: url("image3.jpg");
+  background-size: 100% 100%;
+}
+
+.slide:nth-child(4){
+  background-image: url("image4.jpg");
+  background-size: 100% 100%;
+}
+
+
+
+.slide:nth-child(1){
+  background-color: lightblue ;
+}
+
+.slide:nth-child(2){
+  background-color: lightgreen ;
+}
+
+.slide:nth-child(3){
+  background-color: purple ;
+}
+
+.slide:nth-child(4){
+  background-color: lightyellow ;
+}
+
+/*
+.slide1{
+  background-color: lightblue ;
+}
+
+.slide2{
+  background-color: lightgreen ;
+}
+
+.slide3{
+  background-color: purple;
+}
+
+.slide4{
+  background-color: orange ;
+} */
+
+.unit{
+  width:100%;
+  height: 50px;
+
+}
+.main{
+  border: solid rgba(155, 155, 155, 0.8);
+  background-color: rgba(200, 155, 155, 0.2);
+  margin-top: 3%;
+  margin-left: 1%;
+  float: left;
+  width: 40%;
+  height: 350%;
+  margin-left: 5%;
+
+}
+
+.main h1{
+  margin-left: 7%;
+  word-wrap: break-word;
+}
+
+.main a{
+  margin-left: 20%;
+}
+
+.click{
+  background-color: darkblue;
+  color:white;
+  padding: 4px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.click2{
+  background-color: darkblue;
+  color:white;
+  padding: 4px;
+  border-radius: 8px;
+  text-decoration: none;
+}
+
+.modalwindow{
+  position: fixed;
+  top: 0px;bottom: 0px;right: 0px;left: 0px;
+  background-color: rgba(20, 86, 100, 0.5);
+  opacity: 0;
+  pointer-events: none;
+
+}
+
+.modalwindow:target{
+  opacity:1;
+  pointer-events: all;
+}
+
+.modalwindow2{
+  position: fixed;
+  top: 0px;bottom: 0px;right: 0px;left: 0px;
+  background-color: rgba(20, 86, 100, 0.5);
+  opacity: 0;
+  pointer-events: none;
+
+}
+
+.modalwindow2:target{
+  opacity:1;
+  pointer-events: all;
+}
+
+.msgblock{
+  width:50%;
+  height: 250px;
+  background-color: lightgreen;
+  margin-top: 50px;
+  margin-left: 60px;
+}
+
+.msgblock2{
+  width:50%;
+  height: 250px;
+  background-color: lightgreen;
+  margin-top: 50px;
+  margin-left: 200px;
+}
+
+.msgblock h1{
+  margin-top: 0%;
+  margin-left: 0%;
+}
+
+.msgblock p{
+  margin-top: 0%;
+  margin-left: 10%;
+}
+
+.msgblock img{
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.msgblock a{
+  margin-top: 0%;
+  margin-left: 10%;
+}
+
+
+
+.msgblock2 h1{
+  margin-top: 0%;
+  margin-left: 0%;
+}
+
+.msgblock2 p{
+  margin-top: 0%;
+  margin-left: 10%;
+}
+
+.msgblock2 img{
+  width: 40%;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.msgblock2 a{
+  margin-top: 0%;
+  margin-left: 10%;
+}
