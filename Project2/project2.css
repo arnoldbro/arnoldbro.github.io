@@ -338,7 +338,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
- @keyframes slide {
+  @keyframes slide {
   0%  {margin-top:auto; margin-bottom: auto;margin-right: 0%; }
 
   30% {margin-top:auto; margin-bottom: auto; margin-left: -100%; }
