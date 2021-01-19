@@ -29,7 +29,7 @@ var 卢卡斯的BMI二 = 卢卡斯的质量 / (卢卡斯的身高 * 卢卡斯的
 卢卡斯的BMI二 = 卢卡斯的BMI二.toFixed(2);
 var 卢卡斯的HigherBMI二 = 卢卡斯的BMI二 > 约翰的BMI二;
 
-console.log("第二:", "\n" + 英文名字John + "的BMI是" + 约翰的BMI二 + "kg/m^2.", 英文名字Lucas + "的BMI是" + 卢卡斯的BMI二 + "kg/m^2.", "\n", "卢卡斯的BMI高于约翰的: " + 卢卡斯的HigherBMI二);
+console.log("第二:", "\n", + 英文名字John + "的BMI是" + 约翰的BMI二 + "kg/m^2.", 英文名字Lucas + "的BMI是" + 卢卡斯的BMI二 + "kg/m^2.", "\n", "卢卡斯的BMI高于约翰的: " + 卢卡斯的HigherBMI二);
 
 //Template literal Practice//
 
