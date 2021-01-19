@@ -1,0 +1,14 @@
+body{
+    border: solid red;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+  }
+  
+  
+  h1{
+    text-align: center;
+  }
+  
