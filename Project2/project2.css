@@ -1,23 +1,30 @@
+body{
+  height: 100vh;
+
+}
+
 .header{
   width:100%;
   height: 50px;
 }
 
-.header img{
-  float:left;
-  border: solid lightblue;
-  border-radius: 10px;
-  width: 12%;
-  height: 100%;
-  animation-name: scale;
-  animation-duration: 3s;
-  animation-delay: 0;
-  animation-iteration-count: infinite;
-}
+  .header img{
+    float:left;
+    border: solid lightblue;
+    border-radius: 10px;
+    width: auto;
+    height: 100%;
+    animation-name: scale;
+    animation-duration: 3s;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+  }
 
 .top h4{
-     font-family: Arial, Helvetica, sans-serif;
-     font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  height: 100%;
+  width: 100%;
 }
 
 .updown{
@@ -26,16 +33,15 @@
   height: 130%;
   margin-top:-10px;
 }
+
  .top{
    float: right;
    width:100%;
    height: 40%;
-
    animation-name: updown2 ;
    animation-duration: 5s;
    margin-top:2px;left:0px;
-      animation-iteration-count: infinite;
-
+   animation-iteration-count: infinite;
 }
 
  .bottom{
@@ -49,18 +55,15 @@
    margin-top:-10px;left:0px;
    animation-iteration-count: infinite;
    opacity: .5;
-
-
  }
 
 .bottom h3{
-
 
 }
 
 .main{
   width: 100%;
-  height: 800px;
+  height: 80%;
   float:left;
 }
 
@@ -72,6 +75,7 @@
 }
 
 .product h3{
+  float: left;
   height: auto;
   width: 100%;
   font-size: 16px;
@@ -81,14 +85,22 @@
 
 }
 
-.product img{
-  width: 95%;
-  height: auto;
-  margin-bottom: auto;
+.product-image-container{
+    width: 100%;
+    height: 60%;
 }
+  .product-image-container img{
+    width: 95%;
+    height: 100%;
+    float: left;
+    margin-left: 0%;
+    margin-bottom: auto;
+  }
 
 .product p{
-  width: auto;
+  text-align: center;
+  float: left;
+  width: 100%;
   height: auto;
   font-size: 12px;
   font-family: Arial, Helvetica, sans-serif;
@@ -100,6 +112,9 @@
   opacity: 0;
   pointer-events: none;
   position: fixed;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
 }
 
 .modal-window:target{
@@ -107,49 +122,81 @@
   pointer-events: auto;
 }
 
-.modal-window > div{
-    border: solid white;
-    width: 60%;
-    height: 500px;
-    position: relative;
-    margin: 10% auto;
-    padding: 5px 20px 13px 20px;
-    border-radius: 10px;
-    background: rgba(233, 242, 251, 1);
-
-}
-
-.modal-window > div img{
-  width: 40%;
-  margin-left: 25%;
-}
-
-.modal-window > div h3{
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.modal-window > div button{
-  width: 20%;
-  margin-left: 35%;
+.msgblock{
+  z-index: 101;
+  border: solid white;
+  width: 40vh;
+  height: 50%;
+  position: relative;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-bottom: auto;
   margin-right: auto;
+  border-radius: 10px;
+  background: rgba(233, 242, 251, 1);
+}
+
+  .msgblock-contents{
+    margin-top: 7%;
+    margin-bottom: AUTO;
+    height: 80%;
+    width: 100%;
+  }
+
+  .msgblock h3{
+    width: 100%;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .modal-image{
+    float: left;
+    width: 100%;
+    height: auto;
+    margin-left: 20%;
+  }
+
+  .modal-image img{
+      float: left;
+      width: 50%;
+  }
+
+.caption-container{
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+.pricebutton-container{
+  float: left;
+  width: 100%;
+  height: auto;
+
+}
+
+.pricebutton{
+  float: left;
+  margin-top: 0px;
+  margin-left: 20%;
+  margin-right: auto;
+  margin-bottom: 0px;
+  width: 50%;
+  height: auto;
   text-align: center;
   background-color: white;
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
+  border-radius: 10px;
+  border: 2px solid white;
 }
 
-.modal-window > div button:hover{
+.pricebutton:hover{
   background-color: lightblue;
 }
 
 
-
-.msgblock{
-  position: fixed;
-  width: 30px;
-}
-
 .link1 a{
+  float: left;
   width: 100%;
   text-align: center;
   text-decoration: none;
@@ -169,9 +216,23 @@
 }
 
 
-.list{
+.xbutton{
+  width: 10%;
+  height: auto;
   float:right;
-  top:0; right: 0;
+}
+
+.untitledlistcontainer{
+  float: left;
+  width: 100%;
+  height: 40px;
+}
+
+.untitledlist{
+  float: left;
+  width: 80%;
+  height: 100%;
+  margin-left: 15%;
 }
 
 .frame {
@@ -180,41 +241,42 @@
   float: left;
   overflow: hidden;
   margin-top: 2%;
+  margin-bottom: 0px;
+
 }
 
 .slidegroup{
   float: left;
   width: 400%;
-  height: 100%;
+  height: 18px;
+  margin-bottom: 0px;
   animation: slide 20s;
   animation-fill-mode: forwards;
   animation-iteration-count: infinite;
 }
 
-
-
-
 .slide {
+
   width: 25%;
-  height: 30px;
+  height: 110%;
   float: left;
-  font-size: 20px;
+  font-size: 19px;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
-
-
+  margin-bottom: 0px;
 }
 
-.slide p{
-  margin-top: 0px;
-  background-color: rgba(168, 244, 249, 0.5);
-  background-size: 100% 100%;
-
-  width: 100%;
-  height: 100%;
-  }
+  .slide p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: rgba(168, 244, 249, 0.5);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100%;
+    }
 
 .background1{
+  float: left;
   background-image: url("background1.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -222,23 +284,31 @@
   border: solid 2px;
   margin-top: 0px;
   width: 100%;
+  margin-bottom: 0px;
   height: 400px;
   position: relative;
 }
 
 .message1{
   position: absolute;
+  width: auto;
+  height: auto;
+  float: left;
+  z-index: auto;
 }
 
-.message1 p{
-  width: 40%;
-  margin-left: 5%;
-  margin-top:-300px;
-  background-color: rgba(158, 139, 59, 1);
-  border-radius: 5px;
-  border: solid black 3px;
-  padding: 2%;
-}
+  .message1 p{
+    width: 40%;
+    height: 100%;
+    margin-left: 5%;
+    margin-right: auto;
+    margin-top:20%;
+    background-color: rgba(158, 139, 59, 1);
+    border-radius: 5px;
+    border: solid black 3px;
+    padding: 2%;
+    z-index: 1000;
+  }
 
 .container{
   float: left;
@@ -250,31 +320,37 @@
   background-image: linear-gradient( lightyellow, rgba(168, 244, 249, 1));
 }
 
-.leftblock{
-  width:47%;
-  height:100%;
-  float: left;
-  margin-right:0.5%;
-  margin-left:.5%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image:  url(background2.jpg);
-}
+  .leftblock{
+    width: 47%;
+    height: 100%;
+    float: left;
+    margin-right: 0.5%;
+    margin-left: .5%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image:  url(background2.jpg);
+  }
 
 
-.rightblock{
-  width:47%;
-  height:100%;
-  float: left;
-  margin-right:0.5%;
-  margin-left:.5%;
-  line-height: 120%;
-  font-size: 12px;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  .rightblock{
+    width: 47%;
+    height: 100%;
+    float: left;
+    margin-right: 0.5%;
+    margin-left: .5%;
+    line-height: 120%;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+    .rightblock p{
+      width:100%;
+      height: auto;
+    }
 
 .footer {
-   height: 200px;
+  z-index: 0;
+   height: 250px;
    bottom: 0;
    float: left;
    width: 100%;
@@ -285,6 +361,7 @@
 }
 
 .footercontainer{
+    margin-bottom: 2%;
     width:  100%;
     height:40%;
 }
@@ -297,45 +374,67 @@
     margin-top: 1%;
 }
 
-.footerblock h4{
-  font-size: 9px;
-  text-align: center;
+  .footerblock h4{
+    font-size: 10px;
+    text-align: center;
+  }
 
-}
+  .footerblock p{
+    font-size: 10px;
+    text-align: center;
+    margin-top: 1%;
+  }
 
-.footerblock p{
-  font-size: 9px;
-  text-align: center;
-  margin-top: 1%;
-}
+  .footersocials{
+    float: left;
+    width: 100%;
+    height: 35px;
+  }
 
-.footersocials{
-  float:left;
-  width: 100%;
-  height: 40%;
-}
+  .empty60{
+    height: 100%;
+    width: 58%;
+    float: left;
+  }
 
-.fiveimages{
-  float: right;
-  width: 40%;
-  height: 100%;
-}
+  .fiveimages{
+    margin-top: ;
+    float: left;
+    width: 38%;
+    height: 100%;
+  }
 
-.oneoffive{
-  width: 18%;
-  height: auto;
-}
+  .oneoffive{
+    width: 19%;
+    height: 100%;
+    padding: 2px;
 
-.footername{
-  float: left;
-  width: 100%;
-  height: 10%;
-}
+  }
+
+  .fiveimages img{
+    width: 15%;
+  }
+
 
 .name{
+  float: left;
+  margin-top: 3%;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 13px;
+
+}
+
+
+
+.name p{
+  padding: 0px;
+  height: 100%;
+  width: 100%;
   text-align: center;
   font-size: 10px;
   font-family: Arial, Helvetica, sans-serif;
+
 }
 
   @keyframes slide {
