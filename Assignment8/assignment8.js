@@ -41,11 +41,11 @@ let billTwo = 28;
 
 switch (true) {
     case (billTwo < 30) || (billTwo > 300):
-        console.log(Intl.NumberFormat('en-US', options).format(`The second bill was ${billTwo}, the second tip was ${billTwo * .20}, and the second total value ${billTwo * 1.20}`))
+        console.log(`The second bill was ${billTwo}, the second tip was ${billTwo * .20}, and the second total value ${billTwo * 1.20}`)
         break;
 
     case (billTwo >= 30 && billTwo <= 300):
-        console.log(Intl.NumberFormat('en-US', options).format(`The second bill was ${billTwo}, the second tip was ${billTwo * .15}, and the second total value ${billTwo * 1.15}`))
+        console.log(`The second bill was ${billTwo}, the second tip was ${billTwo * .15}, and the second total value ${billTwo * 1.15}`)
         break;
 };
 
@@ -71,5 +71,8 @@ let fahrenheit = 2;
 let fahrenheitInC = ((fahrenheit - 32) * 5) / 9;
 
 console.log(`${celsius}C is ${celsiusInF}F`, "\n", `${fahrenheit}F is ${fahrenheitInC}C`);
+
+
+
 
 
